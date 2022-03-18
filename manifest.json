@@ -1,0 +1,24 @@
+{
+
+   "background": {
+      "scripts": [ "js/backend.js" ]
+
+   },
+   "content_scripts": [
+      {
+        "matches": ["https://open.spotify.com/*"],
+        "css" : ["css/style.css"],
+        "js" : ["js/frontend.js"]
+
+      }
+  ],
+   "description": "CSpotify Premium by Brattlof & CSystem",
+   "icons": {
+      "128": "img/icon.png"
+   },
+   "web_accessible_resources":["*.png"],
+   "manifest_version": 2,
+   "name": "CSpotify",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://media-match.com/*","*://*.doublecklick.net/*","*://googleadservices.com/*","*://*.googlesyndication.com/*","*://desktop.spotify.com/*","*://*.doubleclick.net/*","*://audio2.spotify.com/*","*://www.omaze.com/*","*://omaze.com/*","*://bounceexchange.com/*","*://open.spotify.com/*", "*://audio-ak-spotify-com.akamaized.net/*", "https://*.googlesyndication.com/*", "*://audio-akp-quic-spotify-com.akamaized.net/*", "*://gae-spclient.spotify.com/*","*://gew1-spclient.spotify.com/*", "*://*.audio-fa.scdn.co/*"],
+   "version": "1.0"
+}

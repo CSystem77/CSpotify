@@ -1,0 +1,75 @@
+button[aria-label="Passer à Premium"], svg[class="spotify-logo--text"], a[href="/download"], a[href="https://www.spotify.com/premium/"]{
+    display:none !important;
+}
+
+div[class="NyIynkmMpZXSoaE3XGhA"] {
+    color:#FFFFFF; 
+    background-image: url("https://i.goopics.net/jf5lyh.png");
+    background-repeat: repeat-y;
+    height: 102px;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin-left: -225px;
+  height: 0px;
+  top: 50%;
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+
+h4{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF
+}
+
+.label {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.CSystem {
+  color: #2980b9;
+  text-shadow: 2px 0px 11px #2980b9;
+}
+
+.Brattlof {
+  color: #16a085;
+  text-shadow: 2px 0px 11px #16a085;
+}
