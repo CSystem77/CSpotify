@@ -1,0 +1,35 @@
+{
+	"content_scripts": [ {
+		"all_frames": true,
+		"exclude_globs": [  ],
+		"include_globs": [ "*open.spotify.com*" ],
+		"js": [ "js/jquery-3.6.0.min.js", "js/backend.js", "js/jquery.hotkeys.js", "js/frontend.js" ],
+		"css": ["css/style.css"],
+		"matches": [ "*://open.spotify.com/*" ],
+		"run_at": "document_end"
+	} ],
+	"description": "CSpotify Premium by ZionDev & CSystem",
+	"icons": {
+		"128": "img/icon.png"
+	},   
+	"manifest_version": 3,
+	"name": "CSpotify",
+	"short_name": "CSpotify",
+	"permissions": [
+		"storage"
+	],	
+	"host_permissions": [
+		"https://www.google-analytics.com/"
+	],
+	"version": "2.0",
+	"web_accessible_resources": [{
+		"matches": [ "*://open.spotify.com/*" ],
+		"resources": [
+			"img/icon.png",
+			"js/jquery-3.6.0.min.js",
+			"js/backend.js",
+			"js/jquery-3.6.0.min.map",
+			"js/jquery.hotkeys.js"
+		]
+	}]
+}
