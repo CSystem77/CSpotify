@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "CSpotify V2.0",
+  "version": "2.0",
+  "description": "CSpotify by CSystem & Trimpsuz",
+  "permissions": ["webRequest", "webRequestBlocking", "*://open.spotify.com/*"],
+  "icons": {
+    "128": "img/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "img/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "web_accessible_resources": ["inject/*", "img/logo_cspotify.png", "css/web-player.css", "css/web-player.android.css"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "CSpotifyv2@CSystem",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
