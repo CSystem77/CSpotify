@@ -72,5 +72,6 @@ Assurez-vous que votre fichier CSpotify.zip contient tous les fichiers nécessai
 ## Crédits
 
 Dev par CSystem
+
 Thanks Trimpsuz (Ads) & SpoPlus (Theme)
 
