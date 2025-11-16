@@ -2,7 +2,7 @@
 
 ![Firefox Windows](demo/Firefox_Win.png)
 
-Cspotify est une extension pour Mozilla (Firefox et Firefox Android) qui vous permet de profiter des avantages d'un abonnement Spotify Premium tout en offrant une interface personnalisée. Cette extension propose un thème agréable et s'adapte parfaitement aux plateformes croisées (Cross-Platform). Vous pouvez ainsi profiter de toutes les fonctionnalités premium de Spotify comme l'écoute sans publicité, la gestion de vos playlists, et bien plus directement depuis votre navigateur, que ce soit sur ordinateur ou mobile (Android).
+CSpotify est une extension pour Mozilla (Firefox et Firefox Android) qui vous permet de profiter des avantages d'un abonnement Spotify Premium tout en offrant une interface personnalisée. Cette extension propose un thème agréable et s'adapte parfaitement aux plateformes croisées (Cross-Platform). Vous pouvez ainsi profiter de toutes les fonctionnalités premium de Spotify comme l'écoute sans publicité, la gestion de vos playlists, et bien plus directement depuis votre navigateur, que ce soit sur ordinateur ou mobile (Android).
 
 ## Comment Installer sur Mozilla (Windows, Mac & Linux)
 
